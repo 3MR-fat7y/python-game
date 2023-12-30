@@ -1,8 +1,9 @@
 def Multiplication_game():
-    print("welcom to the Multiplication game")
-    print("-------[ press 'x' to exit ]-------")
+    print("\nwelcom to the Multiplication game")
+    print("-------[ press 'x' to exit ]-------\n")
     while True:
         try:
+            print("____________________________")
             user_input1 = input('plese enter ur first numbers: ')
             if user_input1.lower() == 'x':
                 print("_______________________________\n\nExiting the program. Thank you!\n_______________________________")

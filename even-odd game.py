@@ -1,6 +1,6 @@
 def game ():
-    print("welcom to the Even-Odd game")
-    print("---[ press 'x' to exit ]---")
+    print("\nwelcom to the Even-Odd game")
+    print("---[ press 'x' to exit ]---\n")
     while True:
         user_input = input ("plese enter a number: ")
         try:     
